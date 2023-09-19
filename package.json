@@ -1,0 +1,21 @@
+{
+  "name": "prisma-postgresql-handtaking",
+  "version": "1.0.0",
+  "description": "Prisma and PostgreSQL hand taking",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon script.ts"
+  },
+  "author": "Brice Nde",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1"
+  }
+}
